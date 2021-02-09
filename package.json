@@ -1,0 +1,37 @@
+{
+  "name": "avital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "csv-test": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "rimraf dist &&  webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.8",
+    "@octokit/rest": "^18.1.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "csv-parse": "^4.15.1",
+    "csv-stringify": "^5.6.1",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "minimist": "^1.2.5",
+    "node-csv": "^0.1.2",
+    "rimraf": "^3.0.2",
+    "simple-git": "^2.34.2",
+    "touch": "^3.1.0",
+    "webpack": "^5.21.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
+}
